@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>projeto82</title>
+  <!--vamos chamar o css para mostrar sua beleza-->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body class="bodyBackground">
+<!--para centrar no meio, podemos usar center-->
+<center>
+  <!--para colocar o título-->
+	<h1> Paint</h1>
+  <!--aqui estamos criando o canvas, que é uma tela onde podemos desenhar-->
+  <!--aqui é a tag do canvas-->
+	<canvas id="myCanvas" width="800" height="600">
+	</canvas>
+	<br>
+	
+   <span>Raio: </span>  
+        <input type="text" id="radius" value=10>
+
+        <span>Cor: </span>  
+        <input type="text" id="color" value="#db1870">
+        
+        <span>Largura da Linha: </span>  
+        <input type="text" id="widthLine" value="2">
+        <br>
+  <br>
+   <!--criamos o botão para limpar o canvas-->
+	<button onclick="clearArea();">Limpar</button>
+</center>
+ <!--aqui chamamos a funcionalidade de javascript-->
+<script src="main.js"></script>
+
+</body>
+</html>

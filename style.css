@@ -1,0 +1,22 @@
+.bodyBackground {
+    background-image: url("https://img.elo7.com.br/product/original/1A80F27/painel-festa-1-20x1m-unicornio-crianca.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  h1
+  {
+      color: #db1870; 
+      font-size: 40px;
+  }
+  
+  #myCanvas
+  {
+      border-width:10px;
+      background-color: white; 
+      border-style:ridge;
+  }
+  span
+  {
+      font-size: 20px;
+  }
+  
